@@ -1,0 +1,135 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-image: -webkit-gradient(
+        radial,
+        50% 50%, 0,
+        50% 50%, 1000,
+        from(rgba(101, 162, 255, 1)),
+        to(rgba(22, 4, 182, 1))
+    );
+}
+
+.wrap {
+    margin: auto;
+    width: 1180px;
+    overflow: hidden;
+}
+
+#slides {
+    width: 999999px
+}
+
+#slides > div {
+    /* height: 600px; */
+    width: 1180px;
+    float: left;
+    margin-right: 200px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    display: box;
+    box-align: center;
+    box-orient: horizontal;
+    box-pack: center;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+#slides h3 {
+    color: lightgray;
+    font-size: 100px;
+    letter-spacing: -5px;
+    text-shadow: 4px 4px 4px darkblue;
+}
+
+#slides hr {
+    margin-top: 25px;
+}
+
+#slides button {
+    font-family: 'Source Code Pro', monospace;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    top: 40px;
+}
+
+#slides #questionButton {
+    top: 230px;
+}
+
+#slides #answerHeader {
+    font-size: 100px;
+}
+
+#slides p{
+    height: 50px;
+    color: lightgray;
+    font-size: 30px;
+}
+
+#slides #questionNumber {
+    height: 0px;
+    top: 10px;
+    letter-spacing: 0px;
+    font-size: 50px;
+}
+
+#slides #quizTitle {
+    margin-top: 30%;
+    font-size: 150px;
+}
+
+#slides #borisHint,
+#slides #borisName,
+#slides #jimmyHint,
+#slides #jimmyName,
+#slides #darthHint,
+#slides #darthName,
+#slides #morganHint,
+#slides #morganName,
+#slides #godHint,
+#slides #godName,
+#slides #meHint,
+#slides #meName {
+    text-shadow: 4px 4px 4px darkblue;
+}
+
+#slides #guessWho {
+    padding-top: 35px;
+}
+
+#slides #borisIMG {
+    border-radius: 50%;
+    width: 35%;
+    padding-top: 20px;
+}
+
+#slides #jimmyIMG {
+    border-radius: 50%;
+    width: 45%;
+    padding-top: 20px;
+}
+
+#slides #darthIMG {
+    border-radius: 50%;
+    width: 50%;
+    padding-top: 20px;
+}
+
+#slides #morganIMG {
+    border-radius: 50%;
+    width: 60%;
+    padding-top: 20px;
+}
+
+#slides #godIMG {
+    border-radius: 50%;
+    width: 35%;
+    padding-top: 20px;
+}
+
+#slides #meIMG {
+    border-radius: 100%;
+    padding-top: 20px;
+}
